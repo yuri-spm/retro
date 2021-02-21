@@ -45,7 +45,7 @@
                         <div class="row align-items-center no-gutters">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.php">
+                                    <a href="home.php">
                                         <img src="img/logo.png" alt="">
                                     </a>
                                 </div>
@@ -54,7 +54,7 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="index.php">Início</a></li>
+                                            <li><a class="active" href="home.php">Início</a></li>
                                             <li><a href="menu.php">Cardápio</a></li>
                                             <li><a href="about.php">Sobre Nós </a></li>
                                             <li><a href="contact.php">Peça já!</a></li>
@@ -244,7 +244,7 @@
 
        <!-- <form method="POST" action="Cadastro_cliente.php"> -->
 
-       <form method="POST" action="../index.php">
+       <form method="POST" action="../home.php">
             <div class="row no-gutters">
                 <div class="col-xl-6 col-lg-6">
                     <div class="map_area">
