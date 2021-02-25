@@ -1,3 +1,5 @@
+<?php?>
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -8,11 +10,19 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- <link rel="manifest" href="site.webmanifest">-->
+
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+
+    <!--
+    <link rel="shortcut icon" type="image/x-icon" href="<?= url("/bistro/favicon.png"); ?>">
+    -->
+
+
     <!-- Place favicon.ico in the root directory -->
 
-    <!-- CSS here -->
+    <!-- CSS here-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -22,8 +32,24 @@
     <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/slicknav.css">
-
     <link rel="stylesheet" href="css/style.css">
+
+
+
+    <!--
+    <link rel="stylesheet" href="<?= url("/bistro/bootstrap.min.css"); ?>">
+    <link rel="stylesheet" href="<?= url("/bistro/owl.carousel.min.css"); ?>">
+    <link rel="stylesheet" href="<?= url("/bistro/magnific-popup.css"); ?>">
+    <link rel="stylesheet" href="<?= url("/bistro/font-awesome.min.css"); ?>">
+    <link rel="stylesheet" href="<?= url("/bistro/themify-icons.css"); ?>">
+    <link rel="stylesheet" href="<?= url("/bistro/gijgo.css"); ?>">
+    <link rel="stylesheet" href="<?= url("/bistro/nice-select.css"); ?>">
+    <link rel="stylesheet" href="<?= url("/bistro/flaticon.css"); ?>">
+    <link rel="stylesheet" href="<?= url("/bistro/slicknav.css"); ?>">
+    <link rel="stylesheet" href="<?= url("/bistro/style.css"); ?>">
+     -->
+
+
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -53,6 +79,8 @@
                                             <li><a class="active" href="home.php">Início</a></li>
                                             <li><a href="menu.php">Cardápio</a></li>
                                             <li><a href="about.php">Sobre Nós </a></li>
+
+
                                             <li><a href="contact.php">Peça já!</a></li>
                                         </ul>
                                     </nav>
